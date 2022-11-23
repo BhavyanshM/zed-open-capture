@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['rawdata_256',['RawData',['../db/dd1/structsl__oc_1_1sensors_1_1usb_1_1_raw_data.html',1,'sl_oc::sensors::usb']]],
-  ['resolution_257',['Resolution',['../de/da1/structsl__oc_1_1video_1_1_resolution.html',1,'sl_oc::video']]]
+  ['keyorder_425',['KeyOrder',['../dc/dd4/structsl__oc_1_1tools_1_1_c_simple_ini_templ_1_1_entry_1_1_key_order.html',1,'sl_oc::tools::CSimpleIniTempl::Entry']]]
 ];

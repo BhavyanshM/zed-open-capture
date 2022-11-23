@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['videocapture_262',['VideoCapture',['../d6/d2a/classsl__oc_1_1video_1_1_video_capture.html',1,'sl_oc::video']]],
-  ['videoparams_263',['VideoParams',['../d1/ded/structsl__oc_1_1video_1_1_video_params.html',1,'sl_oc::video']]]
+  ['rawdata_429',['RawData',['../db/dd1/structsl__oc_1_1sensors_1_1usb_1_1_raw_data.html',1,'sl_oc::sensors::usb']]],
+  ['resolution_430',['Resolution',['../de/da1/structsl__oc_1_1video_1_1_resolution.html',1,'sl_oc::video']]]
 ];

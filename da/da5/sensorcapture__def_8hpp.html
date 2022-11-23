@@ -20,9 +20,10 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../Picto+STEREOLABS_Black.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ZED Open Capture
-   &#160;<span id="projectnumber">v0.4.0</span>
+   &#160;<span id="projectnumber">v0.6.0</span>
    </div>
    <div id="projectbrief">Low level camera driver for the ZED stereo camera family</div>
   </td>
@@ -153,6 +154,7 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="../../df/dd8/namespacesl__oc_1_1sensors.html#aa5bbc0cb62bf6c1fe09c6b36f14958aca17d8858dd4ac68cff0841f02513e5357">sl_oc::sensors::FW_3_8</a> = 776
 , <a class="el" href="../../df/dd8/namespacesl__oc_1_1sensors.html#aa5bbc0cb62bf6c1fe09c6b36f14958aca9edf2dec4526fd1acea761f336c95f8a">sl_oc::sensors::FW_3_9</a> = 777
+, <a class="el" href="../../df/dd8/namespacesl__oc_1_1sensors.html#aa5bbc0cb62bf6c1fe09c6b36f14958acae44886b9ad659f5bace7b8f289ca1b99">sl_oc::sensors::FW_3_10</a> = 778
 <br />
  }</td></tr>
 <tr class="separator:aa5bbc0cb62bf6c1fe09c6b36f14958ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -209,25 +211,25 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/da5/sensorcapture__def_8hpp_source.html#l00181">181</a> of file <a class="el" href="../../da/da5/sensorcapture__def_8hpp_source.html">sensorcapture_def.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;{</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <span class="keywordflow">if</span>(wstr==NULL)</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        <span class="keywordflow">return</span> std::string();</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160; </div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <span class="keywordflow">try</span></div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    {</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        std::wstring ws( wstr );</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        std::string str( ws.begin(), ws.end() );</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="keywordflow">return</span> str;</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    }</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    <span class="keywordflow">catch</span>(...)</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    {</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        std::cerr &lt;&lt; <span class="stringliteral">&quot;Failure reading USB data. Please install the udev rules available in the `udev` folder&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        exit(-1);</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    }</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160; </div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    <span class="keywordflow">return</span> std::string();</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../da/da5/sensorcapture__def_8hpp_source.html#l00182">182</a> of file <a class="el" href="../../da/da5/sensorcapture__def_8hpp_source.html">sensorcapture_def.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;{</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    <span class="keywordflow">if</span>(wstr==NULL)</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        <span class="keywordflow">return</span> std::string();</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160; </div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <span class="keywordflow">try</span></div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    {</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        std::wstring ws( wstr );</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        std::string str( ws.begin(), ws.end() );</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        <span class="keywordflow">return</span> str;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    }</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    <span class="keywordflow">catch</span>(...)</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    {</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        std::cerr &lt;&lt; <span class="stringliteral">&quot;Failure reading USB data. Please install the udev rules available in the `udev` folder&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        exit(-1);</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    }</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160; </div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    <span class="keywordflow">return</span> std::string();</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>

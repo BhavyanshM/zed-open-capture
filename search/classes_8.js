@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['uvcbuffer_261',['UVCBuffer',['../da/d3a/structsl__oc_1_1video_1_1_u_v_c_buffer.html',1,'sl_oc::video']]]
+  ['outputwriter_428',['OutputWriter',['../d5/ddb/classsl__oc_1_1tools_1_1_c_simple_ini_templ_1_1_output_writer.html',1,'sl_oc::tools::CSimpleIniTempl']]]
 ];

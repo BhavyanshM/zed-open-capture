@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['sensorcapture_258',['SensorCapture',['../d5/dcb/classsl__oc_1_1sensors_1_1_sensor_capture.html',1,'sl_oc::sensors']]],
-  ['streamstatus_259',['StreamStatus',['../d8/d0d/structsl__oc_1_1sensors_1_1usb_1_1_stream_status.html',1,'sl_oc::sensors::usb']]]
+  ['loadorder_426',['LoadOrder',['../d1/dcd/structsl__oc_1_1tools_1_1_c_simple_ini_templ_1_1_entry_1_1_load_order.html',1,'sl_oc::tools::CSimpleIniTempl::Entry']]]
 ];
